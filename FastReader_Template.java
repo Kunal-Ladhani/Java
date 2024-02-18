@@ -3,7 +3,22 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
+// --------- RENAME CLASS TO YOUR QUESTION NAME ------------
 public class FastReader_Template {
+
+    public static FastReader scn = new FastReader();
+
+    // ------------- WRITE SOLUTION HERE -----------------
+    public static void main(String[] args) {
+        int t = scn.nextInt();
+
+        while (t-- > 0) {
+            // SOLVE HERE
+        }
+
+    }
+
+    // -------------- CUSTOM FastReader CLASS -----------------
     static class FastReader {
         BufferedReader br;
         StringTokenizer st;
@@ -49,15 +64,5 @@ public class FastReader_Template {
             }
             return str;
         }
-    }
-
-    public static void main(String[] args) {
-        FastReader s = new FastReader();
-        int t = s.nextInt();
-
-        while (t-- > 0) {
-
-        }
-
     }
 }

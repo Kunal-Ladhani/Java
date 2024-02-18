@@ -4,21 +4,21 @@ import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
 public class BufferedReader_Template {
-    public static void main(String[] args)
-            throws IOException {
+    public static void main(String[] args) throws IOException {
 
-        BufferedReader br = new BufferedReader(
-                new InputStreamReader(System.in));
-
+        // --------- BufferedReader CLASS DEFINATIONS ----------
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
-        int n = Integer.parseInt(st.nextToken());
-        int k = Integer.parseInt(st.nextToken());
-        int count = 0;
-        while (n-- > 0) {
+        int testCases = Integer.parseInt(st.nextToken());
+
+        // ======= SOLVE FROM HERE
+        int ans = 0;
+
+        while (testCases-- > 0) {
             int x = Integer.parseInt(br.readLine());
-            if (x % k == 0)
-                count++;
+            if (x % testCases == 0)
+                ans++;
         }
-        System.out.println(count);
+        System.out.println(ans);
     }
 }

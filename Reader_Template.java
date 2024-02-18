@@ -2,7 +2,26 @@ import java.io.DataInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+// --------- RENAME CLASS TO YOUR QUESTION NAME ------------
 public class Reader_Template {
+
+    public static Reader scn = new Reader();
+
+    // ------------- WRITE SOLUTION HERE -----------------
+    public static void main(String[] args) throws IOException {
+        int testCases = scn.nextInt();
+
+        int ans = 0;
+        while (testCases-- > 0) {
+            // SOLVE HERE
+        }
+
+        System.out.println(ans);
+
+        scn.close();
+    }
+
+    // ------------- CUSTOM Reader CLASS -----------------
     static class Reader {
         final private int BUFFER_SIZE = 1 << 16;
         private DataInputStream din;
@@ -114,14 +133,5 @@ public class Reader_Template {
                 return;
             din.close();
         }
-    }
-
-    public static void main(String[] args) throws IOException {
-        Reader scn = new Reader();
-        int t = scn.nextInt();
-        while (t-- > 0) {
-
-        }
-        scn.close();
     }
 }

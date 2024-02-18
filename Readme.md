@@ -2,20 +2,34 @@
 
 Use file `FastReader_Template.java`. Period!
 
+## VS Code extensions required -
+
+- CPH - compeditive programming helper
+- CP Companion - Compeditive companion
+- C/C++ Extension pack
+- Code Runner
+
 ## Commands -
 
 1. `Ctrl + Alt + B` for running all TCs.
 
 2. `Ctrl + Shift + B` for running custom input.
 
-PS - use the `tasks.json` file from the `.vscode` folder.
+### Use the `tasks.json` file from the `.vscode` folder.
 
-## VS Code extensions required -
+## NOTE -
 
-- CPH - compeditive programming helper
-- CP Companion - Compeditive Porgramming companion
-- C/C++ Extension pack
-- Code Runner
+### IF YOU WANT YOU CAN COPY THE TEMPLATES FROM `template-for-CP.json` file in the repo.
+
+## TEMPLATE SHORTCUTS -
+
+- `scn` for Scanner class IO. (slowest)
+
+- `br` for BufferedReader class IO (fast)
+
+- `fr` for FastReader class IO (faster and easy) (RECOMMENDED)
+
+- `re` for Reader class IO (fastest) (NOT EASY)
 
 ### 1. Scanner Class
 
